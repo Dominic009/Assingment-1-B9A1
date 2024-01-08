@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-*{
+
+* {
     font-family: 'Merriweather', serif;
     margin: 0;
 }
 
-body{
-    margin-top: 30px;
+body {
+    margin-top: 10px;
 }
 
 /* Banner Section styles */
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
 
-.banner-img{
+.banner-img {
     width: 1320px;
     height: 600px;
 }
 
-.gradient{
+.gradient {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     position: absolute;
     width: 1320px;
@@ -28,7 +29,7 @@ header{
     border-radius: 16px;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     color: white;
     text-align: center;
@@ -54,39 +55,39 @@ header{
 /* Main */
 
 /* Section 1 */
-.section-1{
+.section-1 {
     margin-top: 120px;
     text-align: center;
 }
 
-.section-1 h1{
+.section-1 h1 {
     font-size: 88px;
     color: #F00;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.section-1 p{
+.section-1 p {
     font-size: 20px;
     color: #F00;
     font-weight: 500;
 }
 
-.section-1 h3{
+.section-1 h3 {
     font-size: 42px;
     font-weight: 700;
     color: rgb(17, 17, 17);
     padding-top: 12px
 }
 
-.sectionImg-1{
+.sectionImg-1 {
     margin-top: 42px;
 }
 
 
 /* Section 2 */
 
-.section-2{
+.section-2 {
     display: flex;
     justify-content: center;
     margin-top: 120px;
@@ -94,7 +95,7 @@ header{
     position: relative;
 }
 
-.gradient-2{
+.gradient-2 {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     position: absolute;
     width: 1320px;
@@ -102,7 +103,7 @@ header{
     border-radius: 16px;
 }
 
-.section-details{
+.section-details {
     display: flex;
     position: absolute;
     bottom: 50%;
@@ -110,7 +111,7 @@ header{
     gap: 60px;
 }
 
-.messege h2{
+.messege h2 {
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 7px;
@@ -118,23 +119,24 @@ header{
     margin-bottom: 8px;
 }
 
-.messege p{
+.messege p {
     color: rgba(255, 255, 255, 0.80);
     margin-bottom: 70px;
 }
 
-.messege a{
+.messege a {
     text-decoration: none;
     font-size: 24px;
     color: white;
-    font-weight:800;
+    font-weight: 800;
     transition: 0.2s linear;
 }
-.messege a:hover{
-    color:#F00;
+
+.messege a:hover {
+    color: #F00;
 }
 
-.section-vector{
+.section-vector {
     display: flex;
     width: 300px;
     height: 400px;
@@ -143,39 +145,39 @@ header{
 
 /* Section 3 */
 
-.section-3{
+.section-3 {
     justify-content: center;
     display: flex;
     margin-top: 120px;
-    width: 1320px;
-    height: 600px;
     text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
-.location{
+.location {
     width: 100%;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
-    margin-left: 30px;
+
 }
 
-.sec-3-info{
+.sec-3-info {
     margin-top: 100px;
 }
 
-.sec-3-info span{
+.sec-3-info span {
     color: #F00;
     margin-right: 5px;
     font-weight: 600;
 }
 
-.sec-3-info h3{
+.sec-3-info h3 {
     line-height: 45px;
     font-size: 25px;
 }
 
-.sec-3-info button{
+.sec-3-info button {
     background-color: #F00;
     border: none;
     padding: 10px 32px;
@@ -185,7 +187,8 @@ header{
     transition: ease 0.2s;
     font-size: 15px;
 }
-.sec-3-info button:hover{
+
+.sec-3-info button:hover {
     background-color: rgb(12, 12, 12);
     color: #F00;
     cursor: pointer;
@@ -197,56 +200,60 @@ header{
 
 /* Section 4 */
 
-.section-4{
+.section-4 {
     margin-top: 120px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 0 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     gap: 60px;
 }
 
-.offer-div{
+.offer-div {
     width: 900px;
 }
-.offer-div h4{
+
+.offer-div h4 {
     color: #F00;
     font-weight: 900;
     margin-bottom: 10px;
 }
-.offer-div h2{
+
+.offer-div h2 {
     font-size: 30px;
     font-weight: 900;
     margin-bottom: 25px;
 }
-.offer-div p{
+
+.offer-div p {
     color: rgb(65, 65, 65);
     line-height: 25px;
 }
 
-.cen-image{
+.cen-image {
     border: solid 10px #F00;
     border-radius: 100%;
     padding: 20px;
 }
 
-.ad{
+.ad {
     padding-top: 100px;
 }
 
-.ad h2{
+.ad h2 {
     font-weight: 900;
     color: #F00;
     margin-bottom: 15px;
     font-size: 35px;
 }
-.ad p{
+
+.ad p {
     color: rgb(65, 65, 65);
     line-height: 25px;
 }
-.ad img{
+
+.ad img {
     margin-top: 40px;
 }
 
@@ -255,59 +262,58 @@ header{
 
 /* Section 5 */
 
-.section-5{
+.section-5 {
     margin-top: 120px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.textarea-5{
+.textarea-5 {
     line-height: 25px;
 }
-.textarea-5 h4{
+
+.textarea-5 h4 {
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.textarea-5 h1{
+.textarea-5 h1 {
     font-size: 45px;
-    font-weight:900;
+    font-weight: 900;
     margin-bottom: 22px;
 }
 
-.textarea-5 h1 span{
+.textarea-5 h1 span {
     color: #F00;
 }
-.textarea-5 p{
+
+.textarea-5 p {
     text-align: center;
     padding: 0 250px;
     color: grey;
 }
 
-.img-1{
-    margin-left: 1250px;
+.img-1 {
+    margin-bottom: -20px;
+    margin-left: 1320px;
     display: flex;
     justify-content: end;
-    scale: 80%;
+    scale: 90%;
 }
 
-.img-2{
-    margin-left: -14px;
-    margin-top: -46px;
-    scale: 97%;
-    z-index: 2;
+.img-2 {
+    scale: 102%;
 }
 
-.img-3{
+.img-3 {
     position: absolute;
     top: -400px;
     left: 0;
-    z-index: 5;
     scale: 80%;
 }
 
-.discount-img{
+.discount-img {
     position: absolute;
     scale: 50%;
     right: 180px;
@@ -318,29 +324,127 @@ header{
 
 /* Section 6 */
 
-.section-6{
+.section-6 {
     margin-top: 120px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.textarea-6{
+.textarea-6 {
     line-height: 25px;
 }
-.textarea-6 h4{
+
+.textarea-6 h4 {
     color: #F00;
     font-weight: 900;
     margin-bottom: 20px;
 }
 
-.textarea-6 h1{
+.textarea-6 h1 {
     font-size: 45px;
-    font-weight:900;
+    font-weight: 900;
     margin-bottom: 22px;
 }
 
-.textarea-6 p{
+.textarea-6 p {
     text-align: left;
     padding-right: 250px;
     color: rgb(94, 94, 94);
+}
+
+.portfolio-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+    row-gap: 20px;
+}
+
+.portfolio-grid div {
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    height: 450px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-img:hover {
+    box-shadow: 2px 2px 9px #F00;
+    scale: 107%;
+}
+
+
+
+
+
+/* Section 7 */
+
+.section-7 {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 100px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    scale: 60%;
+    margin-top: 00px;
+}
+
+.textarea-7 {
+    text-align: center;
+}
+
+.textarea-7 h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.textarea-7 p {
+    color: rgb(73, 73, 73);
+    padding: 10px 150px;
+    margin-bottom: 20px;
+}
+
+.textarea-7 label>input {
+    width: 350px;
+    height: 60px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    padding:0 30px;
+    outline: none;
+}
+.textarea-7 button{
+    width: 150px;
+    height: 60px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: #F00;
+    color: white;
+    font-weight: 600;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+
+.footer{
+    background: #070211;
 }
