@@ -48,8 +48,12 @@ header {
     font-weight: 900;
     line-height: 80px;
     padding: 10px;
+    transition: ease-in-out 0.3s;
+    cursor: ointer;
 }
-
+.banner-text h1:hover{
+    color: #F00;
+}
 
 
 /* Main */
@@ -434,6 +438,7 @@ header {
 
 .textarea-7 label>input:focus{
     border: 1px solid #F00;
+    height: 58px;
 }
 
 .textarea-7 button{
@@ -454,11 +459,6 @@ header {
     font-size: 15px;
 }
 
-
-
-
-
-
 /* Footer Section */
 
 .footer{
@@ -468,27 +468,51 @@ header {
     padding: 100px 140px;
 }
 
+.footer hr{
+    margin: 50px 100px;
+    opacity: 20%;
+}
+
 .first-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    border: solid white 1px;
     margin-bottom: 15px;
 }
 
 .address{
     line-height:35px;
+    background: linear-gradient(90deg, grey 0%, #F00 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .contact{
     margin-bottom: 12px;
+    background: rgb(253,110,10);
+    background: linear-gradient(90deg, #F00 60%, grey 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
-
-
-
-
+.contact p img{
+    margin-right: 10px;
+    scale: 80%;
+}
 .third-section{
     display: flex;
     justify-content: space-between;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    scale: 60%;
+    cursor: pointer;
 }
