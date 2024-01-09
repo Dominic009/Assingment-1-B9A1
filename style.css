@@ -138,6 +138,7 @@ header {
 
 .messege a:hover {
     color: #F00;
+    border-bottom: solid 2px white;
 }
 
 .section-vector {
